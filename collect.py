@@ -23,9 +23,11 @@ def collect_dirs(directions, link, revert_directions):
     
 if __name__ == '__main__':
   languages = []
+  directions = []
+  systems = []
   current_directory = os.getcwd()
   tsv_filename = os.path.join(current_directory, 'mili.tsv')
-  print(tsv_filename)
+  print("Output: %s\n" % tsv_filename)
   
   exceptions_filename = os.path.join(current_directory, 'exceptions.json')  
   with open(exceptions_filename, 'r', encoding='utf-8') as exceptfile:
@@ -41,7 +43,7 @@ if __name__ == '__main__':
           data = json.load(file)
 
         system = filename.replace('.json', '')
-        print(system)
+        systems.append(system)
 
         if "directions" in data:
           revert_directions = "revert_directions" in data and data["revert_directions"]
@@ -57,7 +59,15 @@ if __name__ == '__main__':
           writer.writerow(dir)
           languages.append(dir[1])
           languages.append(dir[2])
-        
+          directions.append((dir[1], dir[2]))
+
   languages = sorted(list(set(languages)))
-  print(languages)
-  print("Totally %d languages" % len(languages))
+  directions = sorted(list(set(directions)))
+  
+  print("Systems:\n%s\n" % systems)
+  print("Languages:\n%s\n" % languages)
+  print("Totally %d languages\n" % len(languages))
+  print("Totally %d unique directions\n" % len(directions))
+  
+  # for lang in languages:
+  #   print("[%s](https://en.wikipedia.org/wiki/ISO_639:%s)" % (lang, lang))
