@@ -9,6 +9,7 @@ Languages (ISO 639-3):
 
 ## Reproduce
 ```bash
+pip install iso639-lang
 python collect.py
 ```
 
