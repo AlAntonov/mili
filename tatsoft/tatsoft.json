@@ -1,0 +1,23 @@
+{
+  "directions": [{
+      "from": "rus",
+      "to": "chv"
+    },{
+      "from": "rus",
+      "to": "tat"
+    },{
+      "from": "rus",
+      "to": "kaz"
+    },{
+      "from": "rus",
+      "to": "kir"
+    },{
+      "from": "rus",
+      "to": "crh"
+    },{
+      "from": "rus",
+      "to": "uzb"
+    }],
+  "revert_directions": true,
+  "link": "https://turk.translate.tatar/"
+}

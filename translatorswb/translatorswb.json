@@ -1,0 +1,38 @@
+{
+  "directions": [{
+    "from": "eng",
+    "to": "ukr"
+  },{
+    "from": "eng",
+    "to": "fra"
+  },{
+    "from": "eng",
+    "to": "tir"
+  },{
+    "from": "eng",
+    "to": "hau"
+  },{
+    "from": "swc",
+    "to": "fra"
+  },{
+    "from": "apc",
+    "to": "eng"
+  },{
+    "from": "ukr",
+    "to": "eng"
+  },{
+    "from": "fra",
+    "to": "eng"
+  },{
+    "from": "tir",
+    "to": "eng"
+  },{
+    "from": "hau",
+    "to": "eng"
+  },{
+    "from": "fra",
+    "to": "swc"
+  }],
+  "revert_directions": false,
+  "link": "https://gamayun.translatorswb.org/mt-demo/"
+}

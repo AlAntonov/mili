@@ -1,0 +1,11 @@
+{
+  "directions": [{
+    "from": "uzb",
+    "to": "rus"
+  },{
+    "from": "uzb",
+    "to": "eng"
+  }],
+  "revert_directions": true,
+  "link": "http://solver.uz/modern.php"
+}

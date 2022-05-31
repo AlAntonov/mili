@@ -1,0 +1,20 @@
+{
+  "directions": [{
+    "from": "aze",
+    "to": "rus"
+  },{
+    "from": "aze",
+    "to": "eng"
+  },{
+    "from": "aze",
+    "to": "tur"
+  },{
+    "from": "tur",
+    "to": "rus"
+  },{
+    "from": "tur",
+    "to": "eng"
+  }],
+  "revert_directions": true,
+  "link": "http://dilmanc.az/"
+}

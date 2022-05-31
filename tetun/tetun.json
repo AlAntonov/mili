@@ -1,0 +1,8 @@
+{
+  "directions": [{
+    "from": "tet",
+    "to": "eng"
+  }],
+  "revert_directions": true,
+  "link": "https://www.ffrtranslate.com/"
+}

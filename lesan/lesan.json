@@ -1,0 +1,11 @@
+{
+  "directions": [{
+    "from": "amh",
+    "to": "eng"
+  },{
+    "from": "tir",
+    "to": "eng"
+  }],
+  "revert_directions": true,
+  "link": "https://lesan.ai/"
+}
