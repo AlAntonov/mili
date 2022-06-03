@@ -12,6 +12,7 @@ Languages (ISO 639-3):
 pip install iso639-lang
 python collect.py
 ```
+This code will create file like [mili.tsv](https://github.com/AlAntonov/mili/blob/main/mili.tsv)
 
 ## Limitations
 - Online web version should be available for users
