@@ -1,4 +1,4 @@
-## How many languages have machine translation?
+## In how many languages is machine translation available?
 **187** languages
 
 **22251** directions
